@@ -18,7 +18,7 @@ s.platform     = :ios, "7.0"
 s.source       = { :git => "https://github.com/Hockly/HKNewsBannerView.git", :tag => "1.0.1"}
 
 
-s.source_files  = "HKNewsBannerView/HKNewsBannerView/*.{h,m}"
+s.source_files  = "HKNewsBannerView/**/*.{h,m}"
 
 
 s.requires_arc = true
