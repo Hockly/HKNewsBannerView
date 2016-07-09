@@ -1,4 +1,9 @@
 # HKNewsBannerView
+## ☆☆☆ “iOS 头条消息轮播器” ☆☆☆
+
+### 支持pod导入
+pod 'HKNewsBannerView', '~> 1.0.1'
+
 ### 无限循环头条消息轮播(一步设置即可使用)
 
      // 只需一步设置
