@@ -14,6 +14,7 @@
     if (self = [super initWithFrame:frame]) {
         self.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
         self.titleEdgeInsets = UIEdgeInsetsMake(0, 8, 0, 0);
+        self.titleLabel.lineBreakMode = NSLineBreakByTruncatingTail;
     }
     
     return self;

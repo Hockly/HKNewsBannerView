@@ -84,7 +84,7 @@ typedef NS_ENUM(NSInteger, HKNewsBannerViewScrollDirection) {
 + (instancetype)newsBannerViewWithFrame:(CGRect)frame newsArray:(NSArray<NSString *> *)newsArray clickNewsOperationBlock:(void(^)(NSInteger tapIndex))clickBlock;
 
 /**
- *  block构造方法
+ *  代理构造方法
  *
  *  @param frame      frame大小
  *  @param newsArray  news数组
